@@ -1,0 +1,43 @@
+body {
+	background:#ffffff;
+    color:#000;
+    font-size:10pt;
+    font-family:Arial;
+}
+.head, .body{
+	text-align: center;
+	font-size:10pt;
+	padding: 5px;
+}
+@media print {
+   .ruler, .noPrint, .noPrint *{display: none !important;}
+   .nextpage  {page-break-after:always;}
+   .lastpage  {page-break-after:avoid;}
+   .page-- {max-height:14in;width:8.5in;border:0px solid #ddd;}
+ 	.head {
+		text-align: center;
+		font-size:8px;
+		padding: 5px;
+	}
+	.body {
+		text-align: center;
+		font-size:8px;
+		padding: 5px;
+	}  
+	.card {border:none;}
+}
+.runDate {
+   font-family:Tahoma,Arial;
+   font-size:8pt;
+   color:gray;
+   text-align:left;
+}
+.rptFooter {
+   font-size:10px;
+   font-family:Arial;
+}
+.footer {
+	background: #fff;
+	color: #000;
+	font-size: 8pt;
+}
